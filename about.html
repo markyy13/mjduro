@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEBSITE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/fontawesome/css/all.css">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body{
+                 margin: 0;
+                 padding 0;
+                 background-color: #1A1A1A;
+                 background-repeat: no-repeat;
+                 background-attachment: scroll;
+                }
+                 .title{
+                    position:absolute;
+                    top: 20%;
+                    left: 10%;
+                    right: 40%;
+                    transform:translate(-50,-50) ;
+                }
+                .title h1{
+                    color: rgba(255, 255, 255);
+                    font-size: 2vw;
+                    font-family: "Montserrat", sans-serif;
+                    animation:text 1s 1;
+                }
+                .title h2{
+                    color: rgba(8, 73, 133);
+                    font-size: 80px;
+                    font-family: "Montserrat", sans-serif;
+                    animation:text 3s 1;
+                }
+                .title h3{
+                color: rgb(255, 0, 0);
+                font-size: 70px;
+                font-family: "Montserrat", sans-serif;
+                animation:text 2s 1;
+                }
+                @keyframes text{
+                    0%{
+                        margin: -40px;
+                    }
+                    30%{
+                        letter-spacing: 10px;
+                        margin-bottom: -40px;
+                    }
+                    85%{
+                        letter-spacing: 8px;
+                        margin-bottom: -40px;
+                    }
+                    
+        </style>
+      
+    </head>
+    <body>
+       
+        <header>
+            <img class="logo" src="images/logo1.png" height="70" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listen.html">About</a></li>
+                    <li><a href="artists.html">Resume</a></li>
+                    <li><a href="about.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
+        </header>
+            <div class="title">
+                <h1>ABOUT</h1>
+            </div>
+    </body>
+</html>
